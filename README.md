@@ -25,4 +25,3 @@ Este projeto realiza uma Análise Exploratória de Dados (EDA) utilizando a bibl
    * Clique no botão de **Fazer upload** (ícone de página com uma seta para cima) ou simplesmente arraste e solte o arquivo `data_cts_intentional_homicide.csv` para dentro da área de arquivos.
 4. **Executar as Células:** Com o arquivo carregado na sessão, basta ir ao menu superior, clicar em **Ambiente de execução** e selecionar **Executar tudo**.
 
-> ⚠️ **Nota:** Como o Google Colab limpa o armazenamento temporário toda vez que a sessão é encerrada, é necessário realizar o upload manual do arquivo `.csv` sempre que o ambiente for reiniciado.
