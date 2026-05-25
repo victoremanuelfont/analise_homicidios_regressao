@@ -3,6 +3,12 @@
 Trabalho prático desenvolvido para a disciplina de **ECO0063 – Tópicos Especiais em Computação I** da Universidade Federal do Ceará (UFC) – Campus Sobral.
 
 ## 👥 Equipe
+* Alisson dos Santos Nascimento
+* Arthur Vieira de Lacerda
+* Eduardo Santos de Castro
+* Jonathan Fernandes da Costa
+* Marina Paula Fontenele 
+* Ryan Gomes Magalhães Lima
 * Victor Emanuel Fontenele Lima
 
 ## 🎯 Objetivo do Projeto
@@ -13,4 +19,10 @@ Este projeto realiza uma Análise Exploratória de Dados (EDA) utilizando a bibl
 * `data_cts_intentional_homicide.csv`: Base de dados oficial utilizada na análise.
 
 ## 🚀 Como Executar
-O notebook principal pode ser visualizado e executado diretamente no Google Colab através do link de atalho presente dentro do arquivo `.ipynb` deste repositório.
+1. **Abrir o Notebook:** Clique no link de atalho do Google Colab presente no topo do arquivo `Análise_Homicídios.ipynb` aqui no repositório.
+2. **Baixar a Base de Dados:** Faça o download do arquivo `data_cts_intentional_homicide.csv` que está aqui no repositório para o seu computador.
+3. **Fazer o Upload no Colab:** * No ambiente do Google Colab, clique no ícone de **Pasta** localizado na barra lateral esquerda.
+   * Clique no botão de **Fazer upload** (ícone de página com uma seta para cima) ou simplesmente arraste e solte o arquivo `data_cts_intentional_homicide.csv` para dentro da área de arquivos.
+4. **Executar as Células:** Com o arquivo carregado na sessão, basta ir ao menu superior, clicar em **Ambiente de execução** e selecionar **Executar tudo**.
+
+> ⚠️ **Nota:** Como o Google Colab limpa o armazenamento temporário toda vez que a sessão é encerrada, é necessário realizar o upload manual do arquivo `.csv` sempre que o ambiente for reiniciado.
