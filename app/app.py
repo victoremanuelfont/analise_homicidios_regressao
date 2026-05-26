@@ -109,16 +109,16 @@ pais_mais_violento_2021.columns = ['País', 'Total de Vítimas (Mulheres em 2021
 st.dataframe(pais_mais_violento_2021)
 st.write("---")
 
-st.subheader("Pergunta 9: Qual o país com maior valor de 'indicador: Victims of intentional homicide'?")
+st.subheader("Pergunta 9: o país com maior valor de 'indicador: Victims of intentional homicide'")
 df_indicador = df_counts[(df_counts['Indicator'].str.contains('Victims of intentional homicide', na=False, case=False)) & (df_counts['Sex'] == 'Total')]
 maior_indicador_pais = df_indicador.groupby('Country')['Value'].sum().nlargest(1).reset_index()
 maior_indicador_pais.columns = ['País', 'Total de Vítimas (Homicídio Intencional)']
 st.dataframe(maior_indicador_pais)
 st.write("---")
 
-st.subheader("Pergunta 10: a média de homicídios no Brasil nos últimos 10 anos?")
+st.subheader("Pergunta 10: a média de homicídios no Brasil nos últimos 10 anos")
 # Filtramos o país Brasil E apenas a categoria 'Total' na coluna Sexo para evitar dupla contagem
-df_brasil = df_counts[(df_counts['Country'] == 'Brazil') & (df_counts['Sex'] == 'Total')]
+df_brasil = df_counts[(df_counts['Country'] == 'Brazil') & (df_counts['Sex'] == 'Total') & (df_counts['Year'] >= 2013) & (df_counts['Year'] <= 2022)]
 media_brasil = df_brasil.groupby('Year')['Value'].sum().mean()
 # Construímos a tabela 
 tabela_media_brasil = pd.DataFrame({
