@@ -19,9 +19,28 @@ Este projeto realiza uma Análise Exploratória de Dados (EDA) utilizando a bibl
 * `data_cts_intentional_homicide.csv`: Base de dados oficial utilizada na análise.
 
 ## 🚀 Como Executar
+
+### Opção 1: Via Google Colab (Notebook)
 1. **Abrir o Notebook:** Clique no link de atalho do Google Colab presente no topo do arquivo `Análise_Homicídios.ipynb` aqui no repositório.
 2. **Baixar a Base de Dados:** Faça o download do arquivo `data_cts_intentional_homicide.csv` que está aqui no repositório para o seu computador.
-3. **Fazer o Upload no Colab:** * No ambiente do Google Colab, clique no ícone de **Pasta** localizado na barra lateral esquerda.
+3. **Fazer o Upload no Colab:**
+   * No ambiente do Google Colab, clique no ícone de **Pasta** localizado na barra lateral esquerda.
    * Clique no botão de **Fazer upload** (ícone de página com uma seta para cima) ou simplesmente arraste e solte o arquivo `data_cts_intentional_homicide.csv` para dentro da área de arquivos.
 4. **Executar as Células:** Com o arquivo carregado na sessão, basta ir ao menu superior, clicar em **Ambiente de execução** e selecionar **Executar tudo**.
+
+### Opção 2: Execução Local (App Streamlit)
+Caso deseje rodar o aplicativo interativo em sua máquina:
+
+1. **Instalar Dependências:**
+   Abra o terminal na pasta raiz do projeto e execute:
+   ```bash
+   pip install -r app/requirements.txt
+   ```
+
+2. **Rodar o Aplicativo:**
+   Ainda no terminal, execute:
+   ```bash
+   streamlit run app/app.py
+   ```
+   O navegador abrirá automaticamente com a interface do projeto.
 
