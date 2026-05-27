@@ -20,7 +20,11 @@ Este projeto realiza uma Análise Exploratória de Dados (EDA) utilizando a bibl
 
 ## 🚀 Como Executar
 
-### Opção 1: Via Google Colab (Notebook)
+### Opção 1: Visualização Online (Recomendado)
+Acesse o aplicativo interativo diretamente pelo navegador:
+👉 **[ufc-topicos-homicidio.streamlit.app](https://ufc-topicos-homicidio.streamlit.app/)**
+
+### Opção 2: Via Google Colab (Notebook)
 1. **Abrir o Notebook:** Clique no link de atalho do Google Colab presente no topo do arquivo `Análise_Homicídios.ipynb` aqui no repositório.
 2. **Baixar a Base de Dados:** Faça o download do arquivo `data_cts_intentional_homicide.csv` que está aqui no repositório para o seu computador.
 3. **Fazer o Upload no Colab:**
@@ -28,7 +32,7 @@ Este projeto realiza uma Análise Exploratória de Dados (EDA) utilizando a bibl
    * Clique no botão de **Fazer upload** (ícone de página com uma seta para cima) ou simplesmente arraste e solte o arquivo `data_cts_intentional_homicide.csv` para dentro da área de arquivos.
 4. **Executar as Células:** Com o arquivo carregado na sessão, basta ir ao menu superior, clicar em **Ambiente de execução** e selecionar **Executar tudo**.
 
-### Opção 2: Execução Local (App Streamlit)
+### Opção 3: Execução Local (App Streamlit)
 Caso deseje rodar o aplicativo interativo em sua máquina:
 
 1. **Instalar Dependências:**
